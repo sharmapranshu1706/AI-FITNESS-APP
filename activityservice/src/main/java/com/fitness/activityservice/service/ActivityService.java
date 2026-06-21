@@ -35,8 +35,8 @@ public class ActivityService {
         response.setCaloriesBurned(activity.getCaloriesBurned());
         response.setStartTime(activity.getStartTime());
         response.setAdditionalMetric(activity.getAdditionalMetric());
-        // response.setCreatedAt(activity.getCreatedAt());
-        // response.setUpdatedAt(activity.getUpdatedAt());
+        response.setCreatedAt(activity.getCreatedAt());
+        response.setUpdatedAt(activity.getUpdatedAt());
         return response;
     }
         
