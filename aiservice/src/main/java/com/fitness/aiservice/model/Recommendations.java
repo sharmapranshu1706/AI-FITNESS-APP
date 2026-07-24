@@ -15,7 +15,7 @@ import java.util.List;
 public class Recommendations {
     @Id
     private String id;
-    private String activityid;
+    private String activityId;
     private String userId;
     private String activityType;
     private String recommendation;
