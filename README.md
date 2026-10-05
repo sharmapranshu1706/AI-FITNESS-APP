@@ -41,7 +41,7 @@ Each directory is an independent Maven application with its own wrapper. There i
 | `activityservice` | Validate users, save activities, list and retrieve activities; MongoDB | 8081 | `activity-service` | 21 | 3.5.4 | 2025.0.3 |
 | `aiservice` | Read existing recommendations by user or activity; MongoDB | 8083 | Intended `aiservice`; see configuration caveat below | 25 | 4.1.0 | 2025.1.2 |
 
-These are the versions declared in the POMs, not a verified working compatibility matrix. Wrapper distributions are Maven 3.9.15 for activityservice, 3.9.13 for aiservice/eureka, and 3.9.14 for userService. Dependency resolution has not been verified.
+These are the versions declared in the POMs, not a verified working compatibility matrix. Wrapper distributions are Maven 3.9.15 for activityservice, 3.9.16 for aiservice/eureka, and 3.9.14 for userService. Dependency resolution has not been verified.
 
 Other source dependencies include Lombok, Spring MVC, Spring Data JPA/MongoDB, Eureka clients, WebFlux for the activity service's WebClient, and Spring AMQP/Actuator in the activity service.
 
